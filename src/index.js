@@ -18,8 +18,8 @@ var position = module.exports = function (options) {
   if (!platform.isMQQBrowser()) {
     return getPositionByStandard(options);
   }
-  return (platform.isIOS() ? mqqbrowser.ios() : mqqbrowser.android()).catch(function (err) {
-    alert(err);
+  return (platform.isIOS() ? mqqbrowser.ios() : mqqbrowser.android()).timeout(5000).catch(function (err) {
+    console.error(err);
     return getPositionByStandard(options);
   });
 };
