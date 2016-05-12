@@ -1,0 +1,21 @@
+{
+  "name": "@yelo/geo-position",
+  "version": "1.0.0",
+  "description": "get coords of geo-position from browser, compatible with QQ-Browser (mobile)",
+  "main": "src",
+  "keywords": [
+    "geo",
+    "position",
+    "qq",
+    "qqbrowser"
+  ],
+  "repository": {
+  	"type": "git",
+  	"url": "https://github.com/imyelo/geo-position.git"
+  },
+  "author": "yelo",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.3.5"
+  }
+}
