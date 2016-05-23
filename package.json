@@ -10,12 +10,14 @@
     "qqbrowser"
   ],
   "repository": {
-  	"type": "git",
-  	"url": "https://github.com/imyelo/geo-position.git"
+    "type": "git",
+    "url": "https://github.com/imyelo/geo-position.git"
   },
   "author": "yelo",
   "license": "MIT",
   "dependencies": {
-    "bluebird": "^3.3.5"
+    "bluebird": "^3.3.5",
+    "debug": "^2.2.0",
+    "load-script": "^1.0.0"
   }
 }
