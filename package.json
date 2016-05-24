@@ -1,5 +1,5 @@
 {
-  "name": "@yelo/geo-position",
+  "name": "@maizuo-fe/geo-position",
   "version": "1.0.0",
   "description": "get coords of geo-position from browser, compatible with QQ-Browser (mobile)",
   "main": "src",
